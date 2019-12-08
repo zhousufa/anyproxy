@@ -1,5 +1,5 @@
 {
-  "name": "anyproxy",
+  "name": "anyproxy-fork",
   "version": "4.1.0",
   "description": "A fully configurable HTTP/HTTPS proxy in Node.js",
   "main": "proxy.js",
@@ -29,7 +29,7 @@
     "mime-types": "2.1.11",
     "moment": "^2.15.1",
     "nedb": "^1.8.0",
-    "node-easy-cert": "^1.0.0",
+    "node-easy-cert-fork": "^1.0.0",
     "pug": "^2.0.0-beta6",
     "qrcode-npm": "0.0.3",
     "request": "^2.74.0",
@@ -105,7 +105,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/anyproxy"
+    "url": "https://github.com/zhousufa/anyproxy"
   },
   "author": "ottomao@gmail.com",
   "license": "Apache-2.0",
