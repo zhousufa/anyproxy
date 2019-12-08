@@ -47,7 +47,6 @@ const PROXY_STATUS_CLOSED = 'CLOSED';
  * @extends {events.EventEmitter}
  */
 class ProxyCore extends events.EventEmitter {
-
   /**
    * Creates an instance of ProxyCore.
    *
@@ -135,7 +134,7 @@ class ProxyCore extends events.EventEmitter {
   */
   handleExistConnections(socket) {
     const self = this;
-    self.socketIndex ++;
+    self.socketIndex++;
     const key = `socketIndex_${self.socketIndex}`;
     self.socketPool[key] = socket;
 
@@ -334,9 +333,9 @@ class ProxyServer extends ProxyCore {
         // start proxy core
         super.start();
       })
-      .catch((e) => {
-        this.emit('error', e);
-      });
+        .catch((e) => {
+          this.emit('error', e);
+        });
     } else {
       super.start();
     }
