@@ -1,6 +1,6 @@
 {
   "name": "anyproxy-fork",
-  "version": "4.1.6",
+  "version": "4.1.7",
   "description": "A fully configurable HTTP/HTTPS proxy in Node.js",
   "main": "proxy.js",
   "bin": {
@@ -26,6 +26,7 @@
     "inquirer": "^5.2.0",
     "ip": "^0.3.2",
     "juicer": "^0.6.6-stable",
+    "lru-cache": "^5.1.1",
     "mime-types": "2.1.11",
     "moment": "^2.15.1",
     "nedb": "^1.8.0",
